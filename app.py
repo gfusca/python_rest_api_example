@@ -21,8 +21,8 @@ def get_pw(username):
 
 @app.route('/secret')
 @auth.login_required
-def index():
-    return "Hello, %s!" % auth.username()
+def secret_page():
+    return Response("Hello, %s!" % auth.username(), 201, mimetype='application/json')
 
 @app.route('/')
 def root_test():
@@ -53,5 +53,5 @@ def change_password(username):
 	return resp
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
 
