@@ -25,7 +25,7 @@ Example for testing a rest api using python request + flask
 
   `$ pip install requests`
 
-## #Execute
+## Execute
 To execute unit tests:
 
 1. Start flask rest server (rest server run on localhost:5000):
