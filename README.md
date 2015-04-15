@@ -16,13 +16,14 @@ Example for testing a rest api using python request + flask
     `$ source bin/activate`
 
 3. Install python packages
-`$ pip install flask`
 
-`$ pip install flask-httpauth`
+  `$ pip install flask`
 
-`$ pip install flask-httpauth`
+  `$ pip install flask-httpauth`
+  
+  `$ pip install flask-httpauth`
 
-`$ pip install requests`
+  `$ pip install requests`
 
 ## #Execute
 To execute unit tests:
