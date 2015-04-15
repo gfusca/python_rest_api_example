@@ -21,7 +21,7 @@ Example for testing a rest api using python request + flask
 
   `$ pip install flask-httpauth`
   
-  `$ pip install flask-httpauth`
+  `$ pip install Flask-API`
 
   `$ pip install requests`
 
