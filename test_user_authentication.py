@@ -46,5 +46,5 @@ class TestAuthenticationRestApi(unittest.TestCase):
 	def test_get_user_collection(self):
 		r = requests.get(self.__api_base_url + self.__user_url)
 		users = r.json()
-		self.assertEqual(users['test_user'], 'test')
+		self.assertEqual(users.has_key('test_user'), True)
 
