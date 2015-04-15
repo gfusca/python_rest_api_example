@@ -1,4 +1,5 @@
-# python_rest_api_example
+# Python REST API Test example
+
 Example for testing a rest api using python request + flask
 
 To run the unittest:
