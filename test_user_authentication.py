@@ -44,6 +44,7 @@ class TestAuthenticationRestApi(unittest.TestCase):
 		self.assertEqual(r.status_code, 403)
 	
 	def test_get_user_collection(self):
+                self.test_user_add()
 		r = requests.get(self.__api_base_url + self.__user_url)
 		users = r.json()
 		self.assertEqual(users.has_key('test_user'), True)
